@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 body{
     background-color: black;
     overflow-x: hidden;
@@ -9,7 +10,7 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: 400;
     overflow: hidden;
     background-color: #DDA0DD;
     width: 90%;
@@ -41,6 +42,18 @@ li a {
     height: 49vw;
     left: 36vw;
 }
+.picture .front-order  {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
 .picture .back-order {
     position: absolute;
     width: 44vw;
@@ -49,17 +62,17 @@ li a {
 }
 #classy-name {
     position: absolute;
-width: 754px;
-height: 358px;
-left: 105px;
+    width: 754px;
+    height: 358px;
+    left: 105px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 128px;
-line-height: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 155px;
 
-color: #EBE4EB;
+    color: #EBE4EB;
 }
 #first-name{
     color: #DDA0DD;
@@ -96,5 +109,69 @@ color: #F5F5F5
     font-style: normal;
     font-weight: 500;
     font-size: 3vw;
-
+}
+#secondpage{
+    overflow-x: hidden;
+}
+.project-pitcher{
+    padding: 16vw;
+}
+#project-pitcher-front {
+    position: absolute;
+    width: 60vw;
+    height: 49vw;
+    margin-top: 58vw;
+}
+#project-pitcher-back{
+    position: absolute;
+    width: 44vw;
+    height: 51vw;
+    margin-top: 55vw;
+    left: 5vw;
+}
+#project-pitcher-p{
+    position: absolute;
+    width: 800px;
+    height: 86px;
+    left: 50vw;
+    margin-top: 30%;
+    font-family: "Segoe UI", "Segoe WP", Arial, sans-serif;
+    font-size: 1.15vw;
+    line-height: 34px;
+    margin-top: 50vw;
+    padding: 4vw;
+    
+    color: #F5F5F5
+}
+#project-pitcher-p-b {
+    position: absolute;
+    width: 800px;
+    height: 86px;
+    left: 50vw;
+    font-family: "Segoe UI", "Segoe WP", Arial, sans-serif;
+    font-size: 1.15vw;
+    line-height: 34px;
+    margin-top: 62vw;
+    padding: 4vw;
+    
+    color: #F5F5F5
+}
+.project-director {
+    padding-right: 2vw;
+}
+.linkable a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #DDA0DD;
+    position: absolute;
+    width: 14vw;
+    height: 2.7vw;
+    left: 55vw;
+    top: 95vw;
+    border-radius: .5vw;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
 }
