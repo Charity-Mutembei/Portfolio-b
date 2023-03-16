@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 body{
+    box-sizing: border-box;
     background-color: black;
     overflow-x: hidden;
     color: white;
@@ -167,6 +168,22 @@ color: #F5F5F5
     width: 14vw;
     height: 2.7vw;
     left: 55vw;
+    top: 95vw;
+    border-radius: .5vw;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+}
+.continue-tour a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(114, 206, 178);
+    position: absolute;
+    width: 14vw;
+    height: 2.7vw;
+    left: 75vw;
     top: 95vw;
     border-radius: .5vw;
     color: black;
